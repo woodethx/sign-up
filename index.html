@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="imgCon">
+        <img src="images/leaf.jpg" alt="leaf :)">
+        <div id="odinCon">
+            <img id="imgOdin" src="images/odin.png" alt="odin">
+            <div id="txtOdin">ODIN</div>
+        </div>
+    </div>
+    <div id="rightSide">
+        <h3 id="msg">This is not a real online service! 
+            You know you need something like this in your life to help you realize your deepest dreams. 
+            Sign up <span style="font-style: italic;">now</span> to get started <br><br>
+            You <span style="font-style: italic;">know</span> you want to</h3>
+        <div id="formCon">
+            <h4>Let's do this!</h4>
+            <form id="actForm" action="post" method="/action_page.php"> 
+                <div class="groupOne">
+                <label for="">First Name</label><input type="text">
+                <label for="">Email</label><input type="email">
+                <label for="">Password</label><input pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" type="password">
+                </div>
+                <div class="groupTwo">
+                <label for="">Last Name</label><input type="text">
+                <label for="">Phone Number</label><input type="text">
+                <label for="">Confirm Password</label><input pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" type="password">
+                </div>
+            </form>
+        </div>
+        <button>Create Account</button>
+        <p>Already have an account? <a href="">Log in</a></p>
+        
+    </div>
+</body>
+</html>

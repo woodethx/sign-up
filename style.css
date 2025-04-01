@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
+#odinCon{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.685);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:10vw;
+    width: 30.35%;
+}
+#txtOdin{
+    font-family: Norse-Bold;
+    font-size: 86px;
+    color: white;
+}
+#imgOdin{
+    height: 85%;
+    width: auto;
+}
+*{
+    font-family: "Open Sans";
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#imgCon{
+    width: 30%;
+    height: 100%;
+}
+#rightSide{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+}
+#formCon{
+    padding: 1vh 3vw;
+    padding-bottom: 3vh;
+    background-color: white;
+}
+input,label{
+    display: block;
+}
+form{
+    display: flex;
+    gap: 3vw;
+}
+button{
+    width: 15vw;
+    height: 5vh;
+    margin: 3vh 3vw;
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight:bold;
+}
+p{
+    margin: 0 3vw;
+}
+#msg{
+    margin: 3vw;
+    margin-top: 15vh;
+    font-weight: 600;
+    margin-right: 20vw;
+}
+label{
+    margin-top: 2vh;
+    font-size: .75rem;
+    width: 15vw;
+}
+.groupOne,.groupTwo{
+    display: flex;
+    flex-direction: column;
+}
+
+h4{
+    margin:10px 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 700;
+}
+
+input:invalid{
+    border:solid red 1px;
+}
+input:focus{
+    border: solid blue 1px;
+    outline: solid blue 1px;
+}
